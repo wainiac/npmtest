@@ -1,6 +1,6 @@
 {
   "name": "@wainiac/npmtest",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "NPM Test Module",
   "main": "index.js",
   "scripts": {
