@@ -1,4 +1,5 @@
 const expect = require('chai').expect;
+const npmtest = require('../index');
 
 describe("Test", () => {
     it("should be true", () => {
@@ -7,4 +8,7 @@ describe("Test", () => {
     it("should be false", () => {
         expect(false).to.be.false;
     });
+    it("should be 'Test'", () => {
+        expect(npmtest()).to.equal("Test");
+    })
 });
