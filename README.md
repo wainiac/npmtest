@@ -2,4 +2,4 @@
 Test NPM project
 
 
-Wainiac
+* ```npm version patch```
