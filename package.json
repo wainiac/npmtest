@@ -1,0 +1,29 @@
+{
+  "name": "@wainiac/npmtest",
+  "version": "0.0.1",
+  "description": "NPM Test Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wainiac/npmtest.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Wainiac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wainiac/npmtest/issues"
+  },
+  "homepage": "https://github.com/wainiac/npmtest#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.2.1"
+  }
+}
