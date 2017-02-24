@@ -4,8 +4,7 @@
   "description": "NPM Test Module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/",
-    "publish": "npm publish --access=public"
+    "test": "mocha tests/"
   },
   "repository": {
     "type": "git",
