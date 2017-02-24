@@ -5,6 +5,9 @@
 # OSX
 .DS_Store
 
+# Typescript
+build/
+
 # Logs
 logs
 *.log

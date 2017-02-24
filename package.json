@@ -2,9 +2,10 @@
   "name": "@wainiac/npmtest",
   "version": "0.0.9",
   "description": "NPM Test Module",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "mocha tests/"
+    "test": "mocha build/tests/",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/wainiac/npmtest#readme",
   "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
     "chai": "^3.5.0",
     "jshint": "^2.9.4",
     "mocha": "^3.2.0",
